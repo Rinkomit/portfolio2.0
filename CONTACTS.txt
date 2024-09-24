@@ -1,0 +1,109 @@
+This is the cods for the Contacts if decided to add it:
+________________________________________________________
+
+ <div id="three">
+                <div class="contacts">
+        
+                    <div id="contactstitle">CONTACTS</div>
+                    <div id="contacts2"></div>
+        
+                    <div id="socialcont">
+                        <div id="fbcontact">Kirsten Toledo</div>
+                        <br>
+                        <br>
+                        <div id="instacontact">@kirsclaire</div>
+                        <br>
+                        <br>
+        
+                        <div id="xcontact">@eliannaaa_e</div>
+        
+                        <br>
+                        <br>
+                        <div id="ytcontact">Rinkomit</div>
+                    </div>
+        
+                    <div class="hello">
+                        <div><a href="https://www.facebook.com/kirsten.claire.0212"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <br>
+                        <div><a href="https://www.instagram.com/liptonnnns"><i class="fa-brands fa-instagram"></i></a></div>
+                        <br>
+                        <div><a href="https://x.com/eliannaaa_e"><i class="fa-brands fa-twitter"></i></a></div>
+                        <br>
+                        <div><a href="https://www.youtube.com/@Rinkomit"><i class="fa-brands fa-youtube"></i></a></div>
+                    </div>
+
+
+____________________________
+
+CSS:
+____________________________
+
+/* Contacts */
+
+#three {
+     align-items: center;
+}
+
+#contacts2 {
+    background-color: #E6D7FF;
+        height: 672.07px;
+        width: 500px;
+        position: relative;
+        top: 80px;
+        left: 700px;
+        border-radius: 80px;
+}
+
+
+
+
+/* Contact Icons */
+.hello {
+    margin-left: 760px;
+    bottom: 720px;
+    align-content: end;
+    position: relative;
+    z-index: 100;
+    align-content: center;
+    
+}
+
+.hello a {
+    text-decoration: none;
+    background-color: none;
+    border-radius: 100%;
+
+}
+
+.hello i {
+    font-size: 3em;
+    color: #000;
+}
+
+#contactstitle{
+        text-align: center;
+        font-size: 80px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        bottom: 1100px;
+
+        margin-left: 00px;
+        bottom: -250px;
+        position: relative;
+        z-index: 100;
+        align-items: center;
+
+}
+
+#socialcont {
+        margin-left: 20px;
+            bottom: 370px;
+            align-content: center;
+            position: relative;
+            z-index: 100;
+
+            text-align: center;
+            font-size: 30px;
+
+        
+}

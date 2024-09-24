@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html {
+    cursor: pointer;
+    cursor: help;
+    cursor: progress;
+
+
+    cursor: url("cursor.png"), auto;
+    scroll-behavior: smooth;
+}
+
+#container {
+    height: 100%;
+}
+
+#one {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+#two {
+    padding-top:  15px;
+}
+
+/* Scroll Button */
+.scrlup{
+    position: fixed;
+    width: 60px;
+    height: 50px;
+    right: 50px;
+    bottom: 40px;
+    color: black;
+
+    
+    text-align: center;
+    font-size: 22;
+
+}
+
+
+nav {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 80px;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    color: #0B2B67;
+    
+        font-family: Outfit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        z-index: 100;
+}
+
+
+
+
+
+/* backgroundlogo */
+body {
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+/* Sections */
+
+
+section {
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+#two {
+    width: 100%;
+    height: 100vh;
+}
+
+#three {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 0
+}
+
+
+
+
+/*!! nav items!! */
+a:link,
+a:visited {
+    background-color: none;
+    color: #D0FCEC;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: #A7A7CD;
+    border-radius: 10px;
+    cursor: pointer;
+
+    cursor: url("link.png"), auto;
+}
+
+
+/**Profile Tab */
+
+#profiletab {
+    background-color: #6674A6;
+    height: 593px;
+    width: 437px;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 100px;
+    border-radius: 80px;
+}
+
+
+#profiletab2 {
+    background-color: #E6D7FF;
+    height: 572.07px;
+    width: 410.95px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 80px;
+}
+
+#profilepic {
+    height: 215px;
+    width: 230px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px ;
+    left: 94px;    
+}
+
+#stelle {
+    height: 202px;
+    width: 219px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 82.12px;
+    left: 100px;
+}
+
+
+
+
+.user {
+    top: 325px;
+    left: 93px;
+    position: absolute;
+    z-index: 100;
+
+    color: #000046;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 28px;
+     font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+
+
+/* Line beneath the name and occupation */
+svg { 
+    stroke-width: 2px;
+    stroke: #000046;
+    top: 380px;
+    left: 150px;
+    position: absolute;
+    z-index: 100;
+        
+}
+
+.artist {
+    top: 400px;
+    left: 160px;
+    position: absolute;
+    z-index: 100;
+
+    color: #000046;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+
+/* *Icons */
+.socialicons {
+    top: 450px;
+    left: 70px;
+    position: absolute;
+    z-index: 100;
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: none;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons i {
+    font-size: 2em;
+    color: #000;
+}
+
+
+/* Introduction */
+.introduction {
+    position: absolute;
+}
+.intro {
+        margin-left: 1000px;
+        margin-top: -400px;
+
+
+
+    color: #000046;
+        font-family: Outfit;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.desc {
+        margin-left: 1000px;
+        margin-top: px;
+
+
+
+    color: #000;
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    }
+
+
+
+
+
+/* section 2 ARTWORKS */
+
+.artworks {
+    position: absolute;
+    
+    margin-top: 120px;
+        background-color: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.title {
+    top: 150px;
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.box {
+    margin: 40px;
+    width: 550px;
+    height: 350px;
+    box-shadow: -1px 0 10px #000;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: 20px;
+
+}
+
+
+#two img{
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    
+}
+
+
+
+
+/* ?Footer */
+footer {
+    background: #111;
+    height: 190px;
+    width: auto;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #FFF;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: auto ;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    background: #000;
+    width: auto;
+    height: 60px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

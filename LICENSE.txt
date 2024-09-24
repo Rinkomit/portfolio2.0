@@ -1,0 +1,21 @@
+Copyright©2024 Kirsten Toledo
+________________________________
+
+This software was developed as part of an academic project. It is provided for educational purposes only and is not intended for commercial use.
+
+Permissions:
+You are granted the following permissions:
+
+Use: You may use this software for personal, educational, and research purposes.
+Modify: You may modify the software for your own personal, educational, or research use.
+Distribute: You may distribute copies of the original software or modified versions, provided that you include this license in all copies.
+
+Conditions
+The following conditions apply:
+
+Attribution: You must give appropriate credit, provide a link to the original project, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+Non-Commercial: You may not use the software for commercial purposes without explicit permission from the author.
+
+Contact:
+For any inquiries or requests related to the use of this software outside of the terms of this license, please contact the author at toledo.kirsten000@gmail.com.
+
